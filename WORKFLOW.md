@@ -9,15 +9,15 @@
 
 ```mermaid
     flowchart TD
-        S1["Start or open shift"]
-    S2["Capture patient events"]
-    S3["Review patient-centered summary"]
-    S4["Prepare structured handoff"]
-    S5["Close shift or continue care flow"]
-    S1 --> S2
-    S2 --> S3
-    S3 --> S4
-    S4 --> S5
+        W1["Start or open shift"]
+    W2["Capture patient events"]
+    W3["Review patient-centered summary"]
+    W4["Prepare structured handoff"]
+    W5["Close shift or continue care flow"]
+    W1 --> W2
+    W2 --> W3
+    W3 --> W4
+    W4 --> W5
 ```
 
 ## Publication boundary
